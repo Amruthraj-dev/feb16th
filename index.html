@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container{
+           
+            display: grid;
+            grid-template-rows: repeat(8,80px);
+            grid-template-columns: repeat(8,80px);
+            height: 650px;
+            width: 650px;
+            border: 1px solid black;
+            padding: 20px;
+            background: radial-gradient(brown); 
+                 
+        }
+        .row1{
+            /* padding: 20px; */
+            display: grid;
+            color: white;
+           
+            
+        }
+        .white,.white1,.white3,.white4,.white5,.white6,.white7,.white8{
+           
+            height: 80px;
+            width: 80px;
+            border: 1px solid black;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 70px;
+            color: red;
+
+            /* text-align: center; */
+        }
+        .white:nth-child(2n){
+            background-color: black;
+        }
+        .white3:nth-child(2n){
+            background-color: black;
+        }
+        .white5:nth-child(2n){
+            background-color: black;
+        }
+        .white7:nth-child(2n){
+            background-color: black;
+        }
+        .white1:nth-child(2n+1){
+            background-color: black;
+        }
+        .white4:nth-child(2n+1){
+            background-color: black;
+        }
+        .white6:nth-child(2n+1){
+            background-color: black;
+        }
+        .white8:nth-child(2n+1){
+            background-color: black;
+        }
+
+
+        .white:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white1:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white3:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white4:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white5:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white6:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white7:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+        .white8:hover{
+            color: aqua;
+            transform: scale(1.5);
+            border: none;
+        }
+
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row1">
+        <div class="white">&#9820;</div>
+        <div class="white">&#9823;</div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="white">&#9817;</div>
+        <div class="white">&#9814;</div>
+        </div>
+        <div class="row2">
+            <div class="white1">&#9822;</div>
+            <div class="white1">&#9823;</div>
+            <div class="white1"></div>
+            <div class="white1"></div>
+            <div class="white1"></div>
+            <div class="white1"></div>
+            <div class="white1">&#9817;</div>
+            <div class="white1">&#9816;</div>
+        </div>
+        <div class="row3">
+            <div class="white3">&#9821;</div>
+            <div class="white3">&#9823;</div>
+            <div class="white3"></div>
+            <div class="white3"></div>
+            <div class="white3"></div>
+            <div class="white3"></div>
+            <div class="white3">&#9817;</div>
+            <div class="white3">&#9815;</div>
+        </div>
+        <div class="row4">
+            <div class="white4">&#9819;</div>
+            <div class="white4">&#9823;</div>
+            <div class="white4"></div>
+            <div class="white4"></div>
+            <div class="white4"></div>
+            <div class="white4"></div>
+            <div class="white4">&#9817;</div>
+            <div class="white4">&#9813;</div>
+        </div>
+        <div class="row5">
+            <div class="white5">&#9818;</div>
+            <div class="white5">&#9823;</div>
+            <div class="white5"></div>
+            <div class="white5"></div>
+            <div class="white5"></div>
+            <div class="white5"></div>
+            <div class="white5">&#9817;</div>
+            <div class="white5">&#9812;</div>
+        </div>
+        <div class="row6">
+            <div class="white6">&#9821;</div>
+            <div class="white6">&#9823;</div>
+            <div class="white6"></div>
+            <div class="white6"></div>
+            <div class="white6"></div>
+            <div class="white6"></div>
+            <div class="white6">&#9817;</div>
+            <div class="white6">&#9815;</div>
+        </div>
+        <div class="row7">
+            <div class="white7">&#9822;</div>
+            <div class="white7">&#9823;</div>
+            <div class="white7"></div>
+            <div class="white7"></div>
+            <div class="white7"></div>
+            <div class="white7"></div>
+            <div class="white7">&#9817;</div>
+            <div class="white7">&#9816;</div>
+        </div>
+        <div class="row8">
+            <div class="white8">&#9820;</div>
+            <div class="white8">&#9823;</div>
+            <div class="white8"></div>
+            <div class="white8"></div>
+            <div class="white8"></div>
+            <div class="white8"></div>
+            <div class="white8">&#9817;</div>
+            <div class="white8">&#9814;</div>
+        </div>
+   
+    </div>
+</body>
+</html>
